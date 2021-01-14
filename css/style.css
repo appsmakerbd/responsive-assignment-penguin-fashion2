@@ -109,10 +109,59 @@ h1,h2,h3,h4,h5,h6{
 .right-text h4{
     font-family: 'Playfair Display', serif;
 }
-.right-text p{}
+/* Promo2 Section Styling Ends */
 
 
 
+/* Promo3 Section Styling */
+.promo3-section{
+    margin: 100px auto;
+}
+.promo3-section .inner-box{
+    border-radius:10px;
+    overflow: hidden;
+}
+.promo3-section a{
+    padding: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size:40px
+}
+
+.promo3-section h4{
+    color: #ffffff;
+    font-size:36px;
+    margin: 0;
+}
+
+.promo3-section i{
+    transition: 500ms;
+}
+
+.promo3-section .inner-box:hover i{
+transform: rotate(360deg);
+}
+
+/* Promo3 Section Styling Ends*/
+
+
+/* Footer Section Styling */
+footer{
+    margin:100px auto 50px;
+}
+.bottom-links a{
+    color: gray;
+    border-right:1px solid rgba(0,0,0,0.5);
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.bottom-links a:last-child{
+    border-right: none;
+}
+
+
+/* Footer Section Ends */
 
 
 
@@ -153,6 +202,23 @@ h1,h2,h3,h4,h5,h6{
     }
     .promo2-section .row div:last-child{
         margin:20px 0
+    }
+
+    .promo3-section{
+        margin:30px 0;
+    }
+
+    .promo3-section h4,.promo3-section a{
+        font-size:20px;
+    }
+
+    .promo3-section .row>div{
+        width:47%;
+        padding: 2%;
+        margin: 1%;
+    }
+    .promo3-section a{
+        padding: 20px 10px;
     }
  }
 
